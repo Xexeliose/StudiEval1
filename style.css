@@ -1,0 +1,49 @@
+/*General style*/
+img,
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+/*Accueil style*/
+.article-image {
+    height: 35vh;
+    width: 100vw;
+}
+
+article div:first-child {
+    min-height: 48vh;
+}
+
+article a,
+article a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#articles {
+    width: 90%;
+}
+
+article div:hover {
+    opacity: 0.75;
+}
+
+/*Events style*/
+.events img {
+    display: none;
+    width: 20vw;
+}
+
+@media (min-width: 992px) {
+    .events img {
+        display: block;
+    }
+}
+
